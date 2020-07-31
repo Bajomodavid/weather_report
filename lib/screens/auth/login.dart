@@ -16,7 +16,7 @@ class _LoginState extends State<Login> {
 
   submit() {
     if(userInput == null || passInput == null) return 'Both fiels are required';
-    if(userInput != 'aliu' || passInput != 'wuyi') return 'Invalid credentials';
+    if(userInput != 'user' || passInput != 'password') return 'Invalid credentials';
     return true;
   }
 
