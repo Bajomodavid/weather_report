@@ -1,16 +1,19 @@
-# test_data
+# Weather Report
 
-A new Flutter project.
+A basic Flutter List project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a basic illustration of Bloc patter in flutter.
 
-A few resources to get you started if this is your first Flutter project:
+The API resource consumed is at rapidapi.com (Open Weather API)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+It includes the following
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. login screen, 
+2. List items returned from the API resource, 
+3. User profile screen.
+
+2 more complimentary screens
+
+Using BLoC pattern for state management.
